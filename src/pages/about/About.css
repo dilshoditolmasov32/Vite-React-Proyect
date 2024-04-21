@@ -1,0 +1,60 @@
+.lang-switcher {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+
+.lang-switcher h2 {
+  font-family: Poppins;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 44px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  color: #0d1317;
+}
+
+.lang-switcher .text_item {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: left;
+  color: #1d3444;
+}
+
+.article__about {
+  display: flex;
+  gap: 66px;
+  margin-bottom: 108px;
+  margin-top: 64px;
+}
+
+.count {
+  font-family: Poppins;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 50px;
+  text-align: left;
+  color: #f58a07;
+}
+
+.article .title {
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 25.56px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  color: #0d1317;
+  margin: 16px 0;
+}
+
+.article .desc {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  text-align: left;
+  color: #5b5b5b;
+}

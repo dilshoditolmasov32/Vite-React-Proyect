@@ -1,0 +1,130 @@
+.footer-page {
+  background: #063255;
+  padding: 80px 0;
+}
+.footer-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-section h2 {
+  font-family: Poppins;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 44px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  margin: 32px 0;
+  color: #fff;
+  max-width: 340px;
+}
+.footer-section h5 {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+  text-align: left;
+  color: #fff;
+  margin-bottom: 24px;
+}
+
+.footer-link,
+.email,
+.phone {
+  display: block;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  margin-bottom: 16px;
+  color: #fff;
+  text-decoration-line: none;
+}
+
+#email {
+  display: block;
+  width: 342px;
+  border-radius: 31px;
+  color: #9c9c9c;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.36px;
+  text-align: left;
+  padding: 18px 32px;
+  background-color: #fff;
+  outline: none;
+  border: none;
+  margin-bottom: 16px;
+}
+
+.btn-submit {
+  width: 156px;
+  font-family: Poppins;
+  font-size: 18px;
+  padding: 18px 32px;
+  font-weight: 600;
+  line-height: 19.17px;
+  text-align: left;
+  color: #fff;
+  border-radius: 31px;
+  background-color: #f58a07;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.social-media {
+  gap: 16px;
+}
+
+.facebook,
+.instagram,
+.twitter,
+.youTube {
+  color: #fff;
+  margin-right: 17px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.youTube:hover {
+  width: 18px;
+  height: 18px;
+  color: #f58a07;
+}
+.facebook:hover {
+  width: 18px;
+  height: 18px;
+  color: #f58a07;
+}
+.instagram:hover {
+  width: 18px;
+  height: 18px;
+  color: #f58a07;
+}
+.twitter:hover {
+  width: 18px;
+  height: 18px;
+  color: #f58a07;
+}
+
+.footer_text {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+
+.footer-page-switcher {
+  display: flex;
+  gap: 32px;
+}
+
+.footer_text h6 {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  color: #ffffff;
+}

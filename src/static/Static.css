@@ -1,0 +1,44 @@
+.static-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 128px 0;
+  gap: 46px;
+}
+
+.static-section h1 {
+  /* max-width: 610px;
+  width: 100%; */
+  width: 550px;
+  font-family: Poppins;
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 72px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  color: #1d3444;
+}
+
+.hero-text {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: left;
+  color: #5b5b5b;
+  max-width: 550px;
+  margin: 24px 0;
+}
+
+.hero-btn {
+  width: 180px;
+  padding: 18px 32px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 17.04px;
+  text-align: left;
+  color: #ffffff;
+  background-color: #f58a07;
+  border-radius: 27px;
+}

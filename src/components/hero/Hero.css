@@ -1,0 +1,72 @@
+.hero-page {
+  background: #dceaf5;
+  padding-top: 60px;
+  margin-top: 64px;
+}
+
+.hero-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero-about-text h1 {
+  max-width: 575px;
+  font-family: Poppins;
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 72px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  color: #1d3444;
+}
+
+.hero-about-text .text {
+  max-width: 500px;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: left;
+  color: #5b5b5b;
+  margin-top: 12px;
+  margin-bottom: 32px;
+}
+
+.hero-btns {
+  margin-bottom: 56px;
+}
+
+.btn-hero1 {
+  width: 199px;
+  border-radius: 27px;
+  background: #f58a07;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 17.04px;
+  text-align: left;
+  color: #ffffff;
+  padding: 18px 32px;
+}
+
+.btn-hero2 {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 17.04px;
+  text-align: left;
+  background: none;
+  color: #1d3444;
+  padding: 18px 32px;
+}
+
+.hero_item {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  color: #39414980;
+  margin-bottom: 18px;
+}
