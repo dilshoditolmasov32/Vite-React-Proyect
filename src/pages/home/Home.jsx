@@ -1,7 +1,13 @@
+import Card from "../../components/cards/Card";
 import Hero from "../../components/hero/Hero";
-import "./Home.css";
-const Home = () => {
-  return <Hero />;
-};
+
+function Home() {
+  return (
+    <div className="home-page">
+      <Hero />
+      <Card />
+    </div>
+  );
+}
 
 export default Home;

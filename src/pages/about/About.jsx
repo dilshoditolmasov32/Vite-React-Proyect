@@ -2,6 +2,7 @@
 import Static from "../../static/Static";
 import hero2 from "../../images/hero2.svg";
 import "./About.css";
+import Card from "../../components/cards/Card";
 
 const About = () => {
   const aboutData = [
@@ -41,18 +42,18 @@ const About = () => {
 
   return (
     <div className="about-page">
+      <Static
+        title={
+          "We value human, organizational, and operational intelligence, not just artificial"
+        }
+        text={
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam leo odio, sagittis quis ornare quis."
+        }
+        btn={"Work With Us"}
+        img={hero2}
+      />
       <div className="container">
         <div className="about-section">
-          <Static
-            title={
-              "We value human, organizational, and operational intelligence, not just artificial"
-            }
-            text={
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam leo odio, sagittis quis ornare quis."
-            }
-            btn={"Work With Us"}
-            img={hero2}
-          />
           <div className="lang-switcher">
             <h2>
               The energy of a start-up combined with 30 years of experience
@@ -67,6 +68,7 @@ const About = () => {
           <div className="article__about">{data}</div>
         </div>
       </div>
+      <Card />
     </div>
   );
 };

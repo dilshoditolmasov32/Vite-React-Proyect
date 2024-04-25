@@ -1,6 +1,7 @@
 import Static from "../../static/Static";
 import "./Service.css";
 import hero3 from "../../images/hero3.svg";
+import Card from "../../components/cards/Card";
 const Service = () => {
   return (
     <div className="service-page">
@@ -11,6 +12,8 @@ const Service = () => {
         }
         img={hero3}
       />
+
+      <Card />
     </div>
   );
 };

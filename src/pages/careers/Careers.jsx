@@ -1,6 +1,7 @@
 import Static from "../../static/Static";
 import hero4 from "../../images/hero4.svg";
 import "./Careers.css";
+import Card from "../../components/cards/Card";
 
 const Careers = () => {
   return (
@@ -13,6 +14,8 @@ const Careers = () => {
         btn={"View Positions"}
         img={hero4}
       />
+
+      <Card />
     </div>
   );
 };

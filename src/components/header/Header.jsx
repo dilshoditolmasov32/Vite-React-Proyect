@@ -1,6 +1,7 @@
 import "./Header.css";
 import logo from "../../images/header-logo.svg";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
+
 const Header = () => {
   const navbarData = [
     { title: "About Us", url: "/about" },
@@ -8,12 +9,13 @@ const Header = () => {
     { title: "Services", url: "/services" },
     { title: "Blog", url: "/blog" },
     { title: "Contact Us", url: "https://t.me/dilshodbek_zafarovich" },
+    { title: "Product", url: "/product" },
   ];
 
   const DATA = navbarData?.map((val, inx) => (
-    <Link to={val.url} className="navbar-link" key={inx}>
+    <NavLink to={val.url} className="navbar-link" key={inx}>
       {val.title}
-    </Link>
+    </NavLink>
   ));
 
   return (
@@ -21,9 +23,9 @@ const Header = () => {
       <div className="container">
         <div className="nav">
           <div className="logo">
-            <Link to="/">
+            <NavLink to="/">
               <img src={logo} alt="header-logo" />
-            </Link>
+            </NavLink>
           </div>
           <div className="navbar-item">
             <div className="navbar">{DATA}</div>

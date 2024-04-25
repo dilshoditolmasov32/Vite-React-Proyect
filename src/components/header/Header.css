@@ -1,11 +1,10 @@
 .header-page {
-  position: fixed;
+  position: sticky;
   left: 0;
   right: 0;
   top: 0;
   z-index: 99;
   padding: 16px 0;
-
   background-color: #fff;
 }
 
@@ -37,6 +36,11 @@
 }
 
 .navbar-link:hover {
+  text-decoration-line: underline;
+  color: #f58a07;
+}
+
+.navbar-link.active {
   text-decoration-line: underline;
   color: #f58a07;
 }
